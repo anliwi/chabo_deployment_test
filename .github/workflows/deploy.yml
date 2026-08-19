@@ -1,4 +1,4 @@
-name: Deploy <INSTANCE_NAME> instance
+name: Deploy Test ChaBo instance
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
           component: orchestrator
           hf_space: ${{ steps.v.outputs.orchestrator_space }}
           image_tag: ${{ steps.v.outputs.chabo_tag }}
-          title: "Chabo Orchestrator — <INSTANCE_NAME>"
+          title: "Chabo Orchestrator — Test ChaBo"
           extra_content_path: orchestrator/instance_config
           hf_token: ${{ secrets.HF_TOKEN }}
 
