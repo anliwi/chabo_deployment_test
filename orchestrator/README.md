@@ -1,4 +1,4 @@
-# Chabo Orchestrator — &lt;INSTANCE_NAME&gt;
+# Chabo Orchestrator — Test ChaBo;
 
 Config for this instance's orchestrator Space: `instance_config/`
 (`params.override.cfg` / `instance.yaml` / `prompt_overrides.md`), holding this
