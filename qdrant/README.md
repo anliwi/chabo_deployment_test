@@ -1,4 +1,4 @@
-# Chabo Qdrant — &lt;INSTANCE_NAME&gt;
+# Chabo Qdrant — Test ChaBo;
 
 Private Qdrant instance for this ChaBo deployment, fronted by a Gradio facade
 (`app.py`, `api_name="query_points"`) so the Space's own HF private-Space auth protects
